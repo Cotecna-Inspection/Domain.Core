@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - .NET 6 Support (https://devblogs.microsoft.com/dotnet/dotnet-6-end-of-support/)
 
 ### Changed
- - Updates Dependecies for .NET 9
+ - Updates Dependencies for .NET 9
 
 
 ## [3.1.0] - 2024-11-13
