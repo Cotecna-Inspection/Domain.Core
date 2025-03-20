@@ -10,9 +10,9 @@
 		<Authors>Cotecna Inspection</Authors>
 		<Company>Cotecna Inspection</Company>
 		<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-		<Version>4.0.0</Version>
-		<FileVersion>4.0.0</FileVersion>
-		<AssemblyVersion>4.0.0</AssemblyVersion>
+		<Version>4.1.0</Version>
+		<FileVersion>4.1.0</FileVersion>
+		<AssemblyVersion>4.1.0</AssemblyVersion>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageProjectUrl>https://github.com/Cotecna-Inspection/Domain.Core</PackageProjectUrl>
 		<PackageReleaseNotes>https://github.com/Cotecna-Inspection/Domain.Core/blob/main/NuGet/Cotecna.Domain.Core.Configuration/changelog.md</PackageReleaseNotes>
@@ -22,11 +22,11 @@
 	</PropertyGroup>	
 
 	<ItemGroup Condition=" '$(TargetFramework)' == 'net8.0' ">
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
 	</ItemGroup>
 
 	<ItemGroup Condition=" '$(TargetFramework)' == 'net9.0' ">
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.3" />
 	</ItemGroup>
 	
 	<ItemGroup>
