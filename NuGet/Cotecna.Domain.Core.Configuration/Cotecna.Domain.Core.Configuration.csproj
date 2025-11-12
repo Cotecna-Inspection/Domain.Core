@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
 		<PackageId>Cotecna.Domain.Core.Configuration</PackageId>
 		<AssemblyName>Cotecna.Domain.Core.Configuration</AssemblyName>
 		<RootNamespace>Cotecna.Domain.Core</RootNamespace>
@@ -10,9 +10,9 @@
 		<Authors>Cotecna Inspection</Authors>
 		<Company>Cotecna Inspection</Company>
 		<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-		<Version>4.1.0</Version>
-		<FileVersion>4.1.0</FileVersion>
-		<AssemblyVersion>4.1.0</AssemblyVersion>
+		<Version>4.2.0</Version>
+		<FileVersion>4.2.0</FileVersion>
+		<AssemblyVersion>4.2.0</AssemblyVersion>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageProjectUrl>https://github.com/Cotecna-Inspection/Domain.Core</PackageProjectUrl>
 		<PackageReleaseNotes>https://github.com/Cotecna-Inspection/Domain.Core/blob/main/NuGet/Cotecna.Domain.Core.Configuration/changelog.md</PackageReleaseNotes>
@@ -26,9 +26,13 @@
 	</ItemGroup>
 
 	<ItemGroup Condition=" '$(TargetFramework)' == 'net9.0' ">
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.11" />
 	</ItemGroup>
-	
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net10.0' ">
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+	</ItemGroup>
+
 	<ItemGroup>
 		<ProjectReference Include="..\Cotecna.Domain.Core\Cotecna.Domain.Core.csproj" />
 	</ItemGroup>
