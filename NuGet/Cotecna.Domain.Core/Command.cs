@@ -1,16 +1,14 @@
-﻿namespace Cotecna.Domain.Core
-{
-
-    /// <summary>
-    /// Represents a <see cref="Command"/>
-    /// </summary>
-    public abstract class Command { }
+﻿namespace Cotecna.Domain.Core;
 
 
+/// <summary>
+/// Represents a <see cref="Command"/>
+/// </summary>
+public abstract class Command { }
 
-    /// <summary>
-    /// Represents a <see cref="Command{TResult}"/>
-    /// </summary>
-    public abstract class Command<TResult> { }
 
-}
+
+/// <summary>
+/// Represents a <see cref="Command{TResult}"/>
+/// </summary>
+public abstract class Command<TResult> { }
