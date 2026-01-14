@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/1. NuGet/">
+    <Project Path="Cotecna.Domain.Core.Configuration/Cotecna.Domain.Core.Configuration.csproj" />
+    <Project Path="Cotecna.Domain.Core/Cotecna.Domain.Core.csproj" />
+  </Folder>
+  <Folder Name="/2. Testing/">
+    <Project Path="Cotecna.Domain.Core.Test/Cotecna.Domain.Core.Test.csproj" />
+  </Folder>
+  <Folder Name="/3. Documentation/">
+    <File Path="../LICENSE" />
+    <File Path="../README.md" />
+  </Folder>
+</Solution>
