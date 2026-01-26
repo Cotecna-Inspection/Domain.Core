@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Serialization;
 
 namespace Cotecna.Domain.Core;
 
@@ -32,15 +31,4 @@ public class ContractException : Exception
                              Exception inner)
         : base(message, inner)
     { }
-
-    /// <summary>
-    /// Initializes a <see cref="ContractException"/> to raise for a contract invariant not met
-    /// </summary>
-    /// <param name="info"><see cref="SerializationInfo"/> of the contract invariant not met</param>
-    /// <param name="context"><see cref="StreamingContext"/> of the contract invariant not met</param>
-    protected ContractException(SerializationInfo info,
-                                StreamingContext context)
-        : base(info, context)
-    { }
-
 }

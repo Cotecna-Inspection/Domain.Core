@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Releases]
 
+## [5.0.0] - 2026-01-14
+### Added
+- ".snlx" Solution File with support to newer IDEs (Visual Studio 2026 and above, etc.)
+- Locked Mode for Nuget Restore through "packages.lock.json" and "RestorePackagesWithLockFile" 
+
+### Removed
+- ".snl" Solution File with support to older IDEs (Visual Studio 2022 and bellow, etc.) 
+- Contract's Exception serialization constructors that follow the pattern ".ctor(SerializationInfo, StreamingContext)" have been removed. https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib0051
+
 ## [4.2.0] - 2026-11-13
 ### Added
 - Supports .NET 10
