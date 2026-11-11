@@ -122,6 +122,23 @@ $tf/
 # Guidance Automation Toolkit
 *.gpState
 
+# Rider / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Rider plugin caches
+.idea/.idea.*
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+
+# JetBrains system folders
+.gradle/
+out/
+
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper

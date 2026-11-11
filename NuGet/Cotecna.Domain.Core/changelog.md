@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Releases]
 
+## [6.0.0] - 2026-11-11
+### Added
+- Supports .NET 11
+ 
+### Removed
+- .NET 8 Support (https://devblogs.microsoft.com/dotnet/dotnet-8-9-end-of-support/)
+- .NET 9 Support (https://devblogs.microsoft.com/dotnet/dotnet-8-9-end-of-support/)
+
 ## [5.0.0] - 2026-01-14
 ### Added
 - ".snlx" Solution File with support to newer IDEs (Visual Studio 2026 and above, etc.)
