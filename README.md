@@ -12,9 +12,8 @@ The intention of the project is to create code without third-party dependencies,
 ![Nuget](https://img.shields.io/nuget/v/Cotecna.Domain.Core?label=Cotecna.Domain.Core&style=for-the-badge) ![Nuget](https://img.shields.io/nuget/v/Cotecna.Domain.Core.Configuration?label=Cotecna.Domain.Core.Configuration&style=for-the-badge)
 
 Target frameworks:
-- .NET 8.0
-- .NET 9.0
 - .NET 10.0
+- .NET 11.0
 
 1. Install Domain package at your Domain layer: 
     > Install-Package Cotecna.Domain.Core
